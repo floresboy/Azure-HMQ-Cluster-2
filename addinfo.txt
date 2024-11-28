@@ -1,0 +1,34 @@
+https://raw.githubusercontent.com/floresboy/hivemq-vm-cluster/refs/heads/master/azuredeploy.json
+https://raw.githubusercontent.com/floresboy/hivemq-cluster-rollout/refs/heads/master/azuredeploy.json
+
+
+
+
+https://fusionauth.io/dev-tools/url-encoder-decoder
+
+https%3A%2F%2Fraw.githubusercontent.com%2Ffloresboy%2Fhivemq-vm-cluster%2Frefs%2Fheads%2Fmaster%2Fazuredeploy.json
+https%3A%2F%2Fraw.githubusercontent.com%2Ffloresboy%2Fhivemq-cluster-rollout%2Frefs%2Fheads%2Fmaster%2Fazuredeploy.json
+
+
+https://portal.azure.com/#create/Microsoft.Template/uri/
+
+
+
+add the above to create:
+
+https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ffloresboy%2Fhivemq-vm-cluster%2Frefs%2Fheads%2Fmaster%2Fazuredeploy.json
+https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ffloresboy%2Fhivemq-cluster-rollout%2Frefs%2Fheads%2Fmaster%2Fazuredeploy.json
+
+base:
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](.....)
+
+example:
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fquickstarts%2Fmicrosoft.storage%2Fstorage-account-create%2Fazuredeploy.json)
+
+
+insert/replace HTML-link in (....) the above resulting in:
+
+endresult in makup:
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ffloresboy%2Fhivemq-vm-cluster%2Frefs%2Fheads%2Fmaster%2Fazuredeploy.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ffloresboy%2Fhivemq-cluster-rollout%2Frefs%2Fheads%2Fmaster%2Fazuredeploy.json)
+
